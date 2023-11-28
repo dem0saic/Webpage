@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "daFonts";
+    src: url(fonts/*.ttf);
+}
+
+
+
+title {
+    display: none;
+    font-family: none;
+}
+
+html {
+    font-family: 'roboto'sans-serif;
+    line-height: 1.15; 
+}
+
+body {
+    color:#777;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(248, 244, 244);
+    padding: 10px;
+}
+
+#branding_header {
+    width: 98.3%;
+   background-image: url(images/PHOTO-2019-03-04-14-42-37.jpg);
+    position: fixed;
+    left: 5px;
+    top: 3px;
+    right: 5px;
+    border-radius: 5px;
+    transition: all 0.4s;
+    color: #ffffff;
+    text-align: center;
+    height: 15vh;
+
+}
+
+
+#logo {
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin: 10px 0 10px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+@font-face {
+    font-family: "daFonts";
+    src: url(fonts/*.ttf);
+}
+
+.branding-right {
+    float: right;
+    line-height: 38px;
+    margin-top: 6px;
+    margin-bottom:5.5px ;
+    margin: 10px 0 10px;
+    text-transform: uppercase;
+    background-color: #153d6f;
+    border-radius: 5px 0 0 5px;
+    padding-left: 7px;
+    padding-right: 8px;
+    box-shadow: 0 0 1px 1px  rgba(0, 0, 0, 0.3);
+}  
+
+span {
+    transition: 0.8s;
+    overflow: hidden;
+    position: relative;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: ;
+    font-size: 15px;
+}
+
+.branding-right:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.08s;
+    box-shadow: 0 0 1px 1px  rgba(0, 0, 0, 0.1);
+}
+
+.text:hover {
+    color: #153d6f;
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px  rgba(0, 0, 0, 0.1);
+    transition: 0.8s;
+}
+
+#logo:hover {
+    background-color: #ffffff;
+    border-radius:  0 5px 5px 0;
+    cursor: pointer;
+    transition: 0.08s;
+    box-shadow: 0 0 1px 1px  rgba(0, 0, 0, 0.1);
+}
+
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    position: absolute;
+    width: 20%;
+    font-size: small;
+    padding: 20px 0 7%;
+    top: 50px;
+    right: 0cap;
+    border: #777;
+   
+    
+    
+ }
+
+ nav a {
+    text-decoration: none;
+    display: flex;
+    list-style: none;margin: 0;
+    left: 100px;
+    top: 50px;
+   
+    
+    
+
+}
+
+section {
+    
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+}
+
+    
+
+
+
+
